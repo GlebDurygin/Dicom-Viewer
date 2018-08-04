@@ -7,20 +7,44 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DicomViewer", "DicomViewer\
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		MinSizeRel|ARM = MinSizeRel|ARM
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		RelWithDebInfo|ARM = RelWithDebInfo|ARM
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x64.ActiveCfg = Debug|x64
-		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x64.Build.0 = Debug|x64
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|ARM.Build.0 = Debug|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x64.ActiveCfg = Debug|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x64.Build.0 = Debug|Win32
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x86.ActiveCfg = Debug|Win32
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Debug|x86.Build.0 = Debug|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|ARM.ActiveCfg = Release|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|ARM.Build.0 = Release|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|x64.Build.0 = Debug|x64
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.MinSizeRel|x86.Build.0 = Release|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|ARM.ActiveCfg = Release|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|ARM.Build.0 = Release|ARM
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|x64.ActiveCfg = Release|x64
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|x64.Build.0 = Release|x64
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|x86.ActiveCfg = Release|Win32
 		{9696B190-8A31-45BA-A43E-0287102EF438}.Release|x86.Build.0 = Release|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|ARM.ActiveCfg = Release|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|ARM.Build.0 = Release|ARM
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{9696B190-8A31-45BA-A43E-0287102EF438}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

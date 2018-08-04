@@ -18,10 +18,92 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DicomFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DicomFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\icons\BMP.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconExit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconOpen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconSaveAs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconScanFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\JPG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\PNG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\rotateAnticlockwise.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\rotateClockwise.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\shape_flip_horizontal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\shape_flip_vertical.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\delicious.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\iconAllTags.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\cross.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\control_end_blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\resultset_next.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\resultset_previous.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\magnifier_zoom_in.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\magnifier_zoom_out.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -1,0 +1,223 @@
+TransferSyntax||||||Little Endian Implicit
+SpecificCharacterSet|0008|0005|CS|1| 10|[ISO_IR 100]                             
+ImageType|0008|0008|CS|5| 26|[ORIGINAL\PRIMARY\M_SE\M\SE]             
+InstanceCreationDate|0008|0012|DA|1|  8|[20000426]                               
+InstanceCreationTime|0008|0013|TM|1|  6|[104400]                                 
+InstanceCreatorUID|0008|0014|UI|1| 22|[1.3.46.670589.11.30.5]                  
+SOPClassUID|0008|0016|UI|1| 26|=MRImageStorage                          
+SOPInstanceUID|0008|0018|UI|1| 60|[1.3.46.670589.11.30.9.1062531302827752870602.13.1.1.1.0.0.1] 
+StudyDate|0008|0020|DA|1|  8|[20000314]                               
+SeriesDate|0008|0021|DA|1|  8|[20000314]                               
+ContentDate|0008|0023|DA|1|  8|[20000314]                               
+StudyTime|0008|0030|TM|1| 10|[163347.00]                              
+SeriesTime|0008|0031|TM|1| 10|[165052.68]                              
+ContentTime|0008|0033|TM|1| 10|[165052.68]                              
+AccessionNumber|0008|0050|SH|0|  0|(no value available)                     
+Modality|0008|0060|CS|1|  2|[MR]                                     
+Manufacturer|0008|0070|LO|1| 24|[Philips Medical Systems]                
+InstitutionName|0008|0080|LO|1|  4|[PMS]                                    
+ReferringPhysicianName|0008|0090|PN|0|  0|(no value available)                     
+StationName|0008|1010|SH|1|  6|[MMOTM7]                                 
+StudyDescription|0008|1030|LO|1|  8|[Abdomen]                                
+SeriesDescription|0008|103e|LO|1| 20|[Breath holdSSh/TE100]                   
+ManufacturerModelName|0008|1090|LO|1| 16|[Gyroscan Intera]                        
+ReferencedImageSequence|0008|1140|SQ|1|326|(Sequence with explicit length #=3)      
+Item|fffe|e000|na|1|100|(Item with explicit length #=2)          
+ReferencedSOPClassUID|0008|1150|UI|1| 26|=MRImageStorage                          
+ReferencedSOPInstanceUID|0008|1155|UI|1| 58|[1.3.46.670589.11.30.9.1062531302827752870101.2.1.1.1.0.0.2] 
+ItemDelimitationItem|fffe|e00d|na|0|  0|(ItemDelimitationItem for re-encoding)   
+Item|fffe|e000|na|1|100|(Item with explicit length #=2)          
+ReferencedSOPClassUID|0008|1150|UI|1| 26|=MRImageStorage                          
+ReferencedSOPInstanceUID|0008|1155|UI|1| 58|[1.3.46.670589.11.30.9.1062531302827752870201.1.1.1.1.0.0.1] 
+ItemDelimitationItem|fffe|e00d|na|0|  0|(ItemDelimitationItem for re-encoding)   
+Item|fffe|e000|na|1|102|(Item with explicit length #=2)          
+ReferencedSOPClassUID|0008|1150|UI|1| 26|=MRImageStorage                          
+ReferencedSOPInstanceUID|0008|1155|UI|1| 60|[1.3.46.670589.11.30.9.1062531302827752870301.19.1.1.1.0.0.2] 
+ItemDelimitationItem|fffe|e00d|na|0|  0|(ItemDelimitationItem for re-encoding)   
+SequenceDelimitationItem|fffe|e0dd|na|0|  0|(SequenceDelimitationItem for re-encod.) 
+PatientName|0010|0010|PN|1|  8|[abdomen]                                
+PatientID|0010|0020|LO|1|  8|[abdomen]                                
+PatientBirthDate|0010|0030|DA|1|  8|[19700930]                               
+PatientSex|0010|0040|CS|1|  2|[M]                                      
+PatientWeight|0010|1030|DS|1|  2|[70]                                     
+ScanningSequence|0018|0020|CS|1|  2|[SE]                                     
+SequenceVariant|0018|0021|CS|1|  2|[SK]                                     
+ScanOptions|0018|0022|CS|1|  4|[PFP]                                    
+MRAcquisitionType|0018|0023|CS|1|  2|[2D]                                     
+SliceThickness|0018|0050|DS|1|  2|[3]                                      
+RepetitionTime|0018|0080|DS|1|  8|[18431.8]                                
+EchoTime|0018|0081|DS|1|  4|[100]                                    
+NumberOfAverages|0018|0083|DS|1|  2|[1]                                      
+ImagingFrequency|0018|0084|DS|1|  8|[63.8687]                                
+ImagedNucleus|0018|0085|SH|1|  2|[1H]                                     
+EchoNumbers|0018|0086|IS|1|  2|[1]                                      
+MagneticFieldStrength|0018|0087|DS|1|  4|[1.5]                                    
+SpacingBetweenSlices|0018|0088|DS|1|  2|[4]                                      
+NumberOfPhaseEncodingSteps|0018|0089|IS|1|  4|[154]                                    
+EchoTrainLength|0018|0091|IS|1|  4|[101]                                    
+PercentSampling|0018|0093|DS|1|  2|[60]                                     
+PercentPhaseFieldOfView|0018|0094|DS|1|  4|[100]                                    
+DeviceSerialNumber|0018|1000|LO|1|  6|[00001]                                  
+SoftwareVersions|0018|1020|LO|2| 12|[NT 7.1.1\1.2]                           
+ProtocolName|0018|1030|LO|1| 10|[~SSh/TE100]                             
+LowRRValue|0018|1081|IS|1|  2|[0]                                      
+HighRRValue|0018|1082|IS|1|  2|[0]                                      
+IntervalsAcquired|0018|1083|IS|1|  2|[0]                                      
+IntervalsRejected|0018|1084|IS|1|  2|[0]                                      
+HeartRate|0018|1088|IS|1|  2|[0]                                      
+ReceiveCoilName|0018|1250|SH|1|  2|[S]                                      
+TransmitCoilName|0018|1251|SH|1|  2|[B]                                      
+InPlanePhaseEncodingDirection|0018|1312|CS|1|  4|[ROW]                                    
+FlipAngle|0018|1314|DS|1|  2|[0]                                      
+PatientPosition|0018|5100|CS|1|  4|[HFS]                                    
+PrivateCreator|0019|00fe|LO|1| 12|[PHILIPS-MR-1]                           
+StudyInstanceUID|0020|000d|UI|1| 40|[1.3.46.670589.11.30.6.106253130282775287] 
+SeriesInstanceUID|0020|000e|UI|1| 44|[1.3.46.670589.11.30.7.1062531302827752870602] 
+StudyID|0020|0010|SH|1| 10|[282775287]                              
+SeriesNumber|0020|0011|IS|1|  4|[6002]                                   
+AcquisitionNumber|0020|0012|IS|1|  2|[6]                                      
+InstanceNumber|0020|0013|IS|1|  2|[13]                                     
+ImagePositionPatient|0020|0032|DS|3| 24|[-168.349\25.9325\146.144]               
+ImageOrientationPatient|0020|0037|DS|6| 60|[0.999997\-0.00248544\9.74051e-18\9.70598e-18\-1.39019e-17\-1] 
+FrameOfReferenceUID|0020|0052|UI|1| 48|[1.3.46.670589.11.30.8.106253130282775287.9304634] 
+TemporalPositionIdentifier|0020|0100|IS|1|  2|[1]                                      
+NumberOfTemporalPositions|0020|0105|IS|1|  2|[1]                                      
+PositionReferenceIndicator|0020|1040|LO|0|  0|(no value available)                     
+ImageComments|0020|4000|LT|0|  0|(no value available)                     
+PrivateCreator|0021|00fd|LO|1| 12|[PHILIPS-MR-1]                           
+SamplesPerPixel|0028|0002|US|1|  2|1                                        
+PhotometricInterpretation|0028|0004|CS|1| 12|[MONOCHROME2]                            
+Rows|0028|0010|US|1|  2|256                                      
+Columns|0028|0011|US|1|  2|256                                      
+PixelSpacing|0028|0030|DS|2| 16|[1.46484\1.46484]                        
+ZoomFactor|0028|0031|DS|2| 14|[1.2664\1.2664]                          
+ZoomCenter|0028|0032|DS|2| 18|[0.456697\-19.4751]                      
+PixelAspectRatio|0028|0034|IS|2|  4|[1\1]                                    
+BitsAllocated|0028|0100|US|1|  2|16                                       
+BitsStored|0028|0101|US|1|  2|12                                       
+HighBit|0028|0102|US|1|  2|11                                       
+PixelRepresentation|0028|0103|US|1|  2|0                                        
+WindowCenter|0028|1050|DS|1|  4|[1021]                                   
+WindowWidth|0028|1051|DS|1|  4|[2178]                                   
+RescaleIntercept|0028|1052|DS|1|  2|[0]                                      
+RescaleSlope|0028|1053|DS|1|  8|[1.41758]                                
+RescaleType|0028|1054|LO|1| 10|[normalized]                             
+RETIRED_StudyComments|0032|4000|LT|0|  0|(no value available)                     
+PrivateCreator|2001|00fc|LO|1| 22|[PHILIPS IMAGING DD 001]                 
+Unknown Tag & Data|2001|fc01|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2001|fc02|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc03|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2001|fc04|??|1|  0|(no value available)                     
+Unknown Tag & Data|2001|fc06|??|1|  2|31\20                                    
+Unknown Tag & Data|2001|fc07|??|1|  2|55\20                                    
+Unknown Tag & Data|2001|fc08|??|1|  2|31\20                                    
+Unknown Tag & Data|2001|fc09|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2001|fc0a|??|1|  2|31\33                                    
+Unknown Tag & Data|2001|fc0b|??|1|  8|43\4f\52\4f\4e\41\4c\20                  
+Unknown Tag & Data|2001|fc0c|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc0e|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc0f|??|1|  2|00\00                                    
+Unknown Tag & Data|2001|fc10|??|1|  2|4e\4f                                    
+Unknown Tag & Data|2001|fc11|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2001|fc12|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc13|??|1|  4|01\00\00\00                              
+Unknown Tag & Data|2001|fc14|??|1|  4|01\00\00\00                              
+Unknown Tag & Data|2001|fc15|??|1|  2|01\00                                    
+Unknown Tag & Data|2001|fc16|??|1|  2|00\00                                    
+Unknown Tag & Data|2001|fc17|??|1|  4|01\00\00\00                              
+Unknown Tag & Data|2001|fc18|??|1|  4|14\00\00\00                              
+Unknown Tag & Data|2001|fc19|??|1|  2|31\20                                    
+Unknown Tag & Data|2001|fc1a|??|1| 12|00\00\00\00\00\00\00\00\00\00\00\00      
+Unknown Tag & Data|2001|fc1b|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2001|fc1c|??|1|  2|4e\4f                                    
+Unknown Tag & Data|2001|fc1d|??|1|  2|32\20                                    
+Unknown Tag & Data|2001|fc1e|??|1|  0|(no value available)                     
+Unknown Tag & Data|2001|fc1f|??|1|  2|4e\4f                                    
+Unknown Tag & Data|2001|fc20|??|1|  4|54\53\45\20                              
+Unknown Tag & Data|2001|fc21|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc22|??|1|  4|97\ee\cc\3e                              
+Unknown Tag & Data|2001|fc23|??|1|  2|39\30                                    
+Unknown Tag & Data|2001|fc24|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc25|??|1|  4|31\30\30\20                              
+Unknown Tag & Data|2001|fc3f|??|1| 12|49\4e\54\45\52\50\4f\4c\41\54\45\20      
+Unknown Tag & Data|2001|fc53|??|1|  2|30\20                                    
+Unknown Tag & Data|2001|fc5f|??|1|322|fe\ff\00\e0\3a\01\00\00\01\20\fc\00\16\00\00\00\50\48\49\4c\49\50\53\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\01\20\2d\fc\02\00\00\00\14\00\01\20\32\fc\04\00\00\00\00\00\00\00\01\20\33\fc\02\00\00\00\41\50\01\20\35\fc\02\00\00\00\01\00\01\20\36\fc\08\00\00\00\50\41\52\41\4c\4c\45\4c\05\20\fb\00\1a\00\00\00\50\48\49\4c\49\50\53\20\4d\52\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\20\05\20\71\fb\04\00\00\00\d1\49\20\a6\05\20\72\fb\04\00\00\00\a4\d2\11\be\05\20\73\fb\04\00\00\00\de\94\65\a6\05\20\74\fb\04\00\00\00\00\00\9e\42\05\20\75\fb\04\00\00\00\00\80\bb\43\05\20\76\fb\04\00\00\00\00\80\bb\43\05\20\78\fb\04\00\00\00\a9\76\77\41\05\20\79\fb\04\00\00\00\b8\6c\25\c2\05\20\7a\fb\04\00\00\00\02\02\99\41\05\20\7b\fb\02\00\00\00\52\4c\05\20\7e\fb\04\00\00\00\00\00\80\40\05\20\81\fb\02\00\00\00\41\50\05\20\a3\fb\02\00\00\00\30\20\05\20\a4\fb\02\00\00\00\30\20\05\20\a5\fb\02\00\00\00\30\20\05\20\a6\fb\02\00\00\00\30\20\05\20\a7\fb\04\00\00\00\42\4f\44\59 
+Unknown Tag & Data|2001|fc60|??|1|  4|01\00\00\00                              
+PrivateCreator|2005|00fb|LO|1| 26|[PHILIPS MR IMAGING DD 001]              
+Unknown Tag & Data|2005|fb00|??|1|  4|d1\49\20\a6                              
+Unknown Tag & Data|2005|fb01|??|1|  4|a4\d2\11\be                              
+Unknown Tag & Data|2005|fb02|??|1|  4|de\94\65\a6                              
+Unknown Tag & Data|2005|fb03|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb04|??|1|  4|4e\4f\4e\45                              
+Unknown Tag & Data|2005|fb05|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb06|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fb07|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb08|??|1|  4|45\bb\cb\41                              
+Unknown Tag & Data|2005|fb09|??|1|  4|b8\6c\25\c2                              
+Unknown Tag & Data|2005|fb0a|??|1|  4|e6\34\99\41                              
+Unknown Tag & Data|2005|fb0b|??|1|  4|c6\ac\0b\49                              
+Unknown Tag & Data|2005|fb0c|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2005|fb0d|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2005|fb0e|??|1|  4|1f\0a\44\3b                              
+Unknown Tag & Data|2005|fb0f|??|1|  4|31\30\33\32                              
+Unknown Tag & Data|2005|fb10|??|1|  4|32\30\36\34                              
+Unknown Tag & Data|2005|fb11|??|1|  2|4d\20                                    
+Unknown Tag & Data|2005|fb12|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb13|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fb14|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb15|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb16|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb17|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb18|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fb19|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb1a|??|1|  2|00\00                                    
+Unknown Tag & Data|2005|fb1b|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb1c|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb1d|??|1|  2|00\01                                    
+Unknown Tag & Data|2005|fb1e|??|1|  8|63\6f\6d\70\6f\73\65\20                  
+Unknown Tag & Data|2005|fb1f|??|1|  8|63\6f\6d\70\6f\73\65\20                  
+Unknown Tag & Data|2005|fb20|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2005|fb21|??|1|  2|01\00                                    
+Unknown Tag & Data|2005|fb22|??|1|  2|31\20                                    
+Unknown Tag & Data|2005|fb23|??|1|  2|00\00                                    
+Unknown Tag & Data|2005|fb25|??|1|  2|00\00                                    
+Unknown Tag & Data|2005|fb26|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb27|??|1|  8|4d\49\4e\49\4d\55\4d\20                  
+Unknown Tag & Data|2005|fb28|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb29|??|1|  2|31\20                                    
+Unknown Tag & Data|2005|fb2a|??|1|  8|39\33\30\34\36\33\34\20                  
+Unknown Tag & Data|2005|fb2b|??|1|  2|64\00                                    
+Unknown Tag & Data|2005|fb2c|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb2d|??|1|  2|33\20                                    
+Unknown Tag & Data|2005|fb2e|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb2f|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb30|??|1|  8|94\ff\8f\46\00\00\00\00                  
+Unknown Tag & Data|2005|fb31|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb32|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fb33|??|1|  4|34\74\93\41                              
+Unknown Tag & Data|2005|fb34|??|1|  2|31\20                                    
+Unknown Tag & Data|2005|fb35|??|1|  6|50\49\58\45\4c\20                        
+Unknown Tag & Data|2005|fb36|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb37|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb38|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb39|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb3a|??|1| 12|42\72\65\61\74\68\20\68\6f\6c\64\20      
+Unknown Tag & Data|2005|fb3b|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb3c|??|1|  2|30\20                                    
+Unknown Tag & Data|2005|fb3d|??|1|  2|66\00                                    
+Unknown Tag & Data|2005|fb3e|??|1|408|00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00 
+Unknown Tag & Data|2005|fb5f|??|1|  4|4f\44\52\20                              
+Unknown Tag & Data|2005|fb60|??|1|  2|31\20                                    
+Unknown Tag & Data|2005|fb61|??|1|  2|4e\4f                                    
+Unknown Tag & Data|2005|fb63|??|1|  2|00\00                                    
+Unknown Tag & Data|2005|fb6e|??|1|  2|53\45                                    
+Unknown Tag & Data|2005|fb6f|??|1|  2|4d\53                                    
+Unknown Tag & Data|2005|fb70|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fb80|??|1|442|fe\ff\00\e0\8c\00\00\00\05\20\fb\00\1a\00\00\00\50\48\49\4c\49\50\53\20\4d\52\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\20\05\20\3f\fb\04\00\00\00\01\00\00\00\05\20\40\fb\04\00\00\00\00\00\00\00\05\20\41\fb\04\00\00\00\01\00\00\00\05\20\42\fb\04\00\00\00\01\00\00\00\05\20\43\fb\02\00\00\00\4d\20\05\20\44\fb\04\00\00\00\01\00\00\00\05\20\45\fb\04\00\00\00\01\00\00\00\05\20\46\fb\04\00\00\00\46\46\45\20\05\20\47\fb\04\00\00\00\02\00\00\00\fe\ff\00\e0\8a\00\00\00\05\20\fb\00\1a\00\00\00\50\48\49\4c\49\50\53\20\4d\52\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\20\05\20\3f\fb\04\00\00\00\02\00\00\00\05\20\40\fb\04\00\00\00\00\00\00\00\05\20\41\fb\04\00\00\00\01\00\00\00\05\20\42\fb\04\00\00\00\01\00\00\00\05\20\43\fb\02\00\00\00\4d\20\05\20\44\fb\04\00\00\00\01\00\00\00\05\20\45\fb\04\00\00\00\01\00\00\00\05\20\46\fb\02\00\00\00\53\45\05\20\47\fb\04\00\00\00\01\00\00\00\fe\ff\00\e0\8c\00\00\00\05\20\fb\00\1a\00\00\00\50\48\49\4c\49\50\53\20\4d\52\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\20\05\20\3f\fb\04\00\00\00\03\00\00\00\05\20\40\fb\04\00\00\00\00\00\00\00\05\20\41\fb\04\00\00\00\01\00\00\00\05\20\42\fb\04\00\00\00\01\00\00\00\05\20\43\fb\02\00\00\00\4d\20\05\20\44\fb\04\00\00\00\01\00\00\00\05\20\45\fb\04\00\00\00\01\00\00\00\05\20\46\fb\04\00\00\00\46\46\45\20\05\20\47\fb\04\00\00\00\13\00\00\00 
+Unknown Tag & Data|2005|fb84|??|1|166|fe\ff\00\e0\9e\00\00\00\05\20\fb\00\1a\00\00\00\50\48\49\4c\49\50\53\20\4d\52\20\49\4d\41\47\49\4e\47\20\44\44\20\30\30\31\20\05\20\48\fb\02\00\00\00\36\20\05\20\49\fb\02\00\00\00\30\20\05\20\4a\fb\02\00\00\00\31\20\05\20\4b\fb\02\00\00\00\31\20\05\20\4c\fb\06\00\00\00\53\45\52\49\45\53\05\20\4d\fb\00\00\00\00\05\20\64\fb\02\00\00\00\31\20\05\20\65\fb\02\00\00\00\31\20\05\20\66\fb\00\00\00\00\05\20\67\fb\02\00\00\00\32\30\05\20\68\fb\10\00\00\00\45\4e\48\41\4e\43\45\4d\45\4e\54\5f\46\52\4f\20 
+Unknown Tag & Data|2005|fb86|??|1|  2|00\00                                    
+Unknown Tag & Data|2005|fb9f|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fba0|??|1|  4|00\00\00\00                              
+Unknown Tag & Data|2005|fba1|??|1|  0|(no value available)                     
+Unknown Tag & Data|2005|fba2|??|1|  2|30\20                                    
+PixelData|7fe0|0010|OW|1|131072|(not loaded)                             
